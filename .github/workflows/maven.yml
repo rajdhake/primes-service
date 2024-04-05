@@ -36,6 +36,6 @@ jobs:
 
       - name: Build and push the image
         run: |
-          docker login -u kparekh21 -p ${{secrets.ACCESS_TOKEN}} ghcr.io
-          docker build -t ghcr.io/kparekh21/practicum11:latest --file Dockerfile .  
-          docker push ghcr.io/kparekh21/practicum11:latest
+          docker login -u rajdhake -p ${{secrets.ACCESS_TOKEN}} ghcr.io
+          docker build -t ghcr.io/rajdhake/practicum11:latest --file Dockerfile .  
+          docker push ghcr.io/rajdhake/practicum11:latest
